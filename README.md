@@ -1,14 +1,14 @@
-Sistema de Provas Universitárias
-Este projeto implementa um sistema simples para cálculo de médias de provas universitárias e verificação de aprovação de alunos, utilizando herança em Java.
+📚 **Sistema de Provas Universitárias**
+Este projeto consiste em um sistema simples para calcular médias de provas universitárias e verificar a aprovação de alunos, utilizando herança em Java.
 
-Estrutura
-ProvaUniversidade: Classe base que contém o método calcularMedia(), responsável por calcular a média das notas.
+🛠️ **Estrutura do Código**
+ProvaUniversidade: Classe base que contém o método calcularMedia(), responsável por calcular a média das notas dos alunos.
 
-ProvaUCB e ProvaFafifo: Subclasses de ProvaUniversidade que utilizam o método de cálculo da média e aplicam suas próprias regras de aprovação para determinar se o aluno passou.
+ProvaUCB e ProvaFafifo: Subclasses de ProvaUniversidade que utilizam o cálculo de média e aplicam regras específicas para verificar a aprovação dos alunos.
 
-Aluno: Representa o aluno, armazenando suas notas e sendo avaliado pelas subclasses de prova.
+Aluno: Classe que armazena os dados e notas de um aluno, sendo avaliado pelas provas das diferentes universidades.
 
-Funcionalidade
-Calcular Média: O método calcularMedia() é herdado e utilizado pelas subclasses para calcular a média de um aluno.
+⚙️ **Funcionalidades**
+Calcular Média: O método calcularMedia() calcula a média de notas do aluno e é herdado pelas subclasses.
 
-Verificar Aprovação: Cada subclasse possui regras específicas para verificar se o aluno passou com base na média.
+Verificar Aprovação: As subclasses possuem regras específicas para determinar se o aluno passou, com base na média calculada.
